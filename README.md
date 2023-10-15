@@ -1,4 +1,12 @@
-# HW1
+# NYCU-perception-and-decision-making-in-intelligent-systems-hw1
+
+
+## Data Preparation
+
+To get started, download the replica dataset from the following links:
+
+1. [Link 1](https://drive.google.com/file/d/1zHA2AYRtJOmlRaHNuXOvC_OaVxHe56M4/view?usp=sharing)
+2. [Link 2](https://github.com/facebookresearch/Replica-Dataset)
 
 ## Environment:
 
@@ -7,20 +15,34 @@
 
 ## Execution Instructions
 
+First, run [load.py](http://load.py/) to collect your data.
+
+For the first floor, use the following command in your terminal:
+
+```python
+python load.py -f 1
+
+```
+
+For the second floor, use the following command in your terminal:
+
+```python
+python load.py -f 2
+
+```
+
 Task 1:
 
-There are photos of the first floor and the second floor respectively.
+There are photos available for the first floor and the second floor.
 
-Please run the following commands in your terminal:
-
-1. Select first floor
+To select the first floor, use the following command:
 
 ```python
 python bev.py -f 1
 
 ```
 
-1. Select second floor
+To select the second floor, use the following command:
 
 ```python
 python bev.py -f 2
@@ -29,9 +51,9 @@ python bev.py -f 2
 
 Task 2:
 
-There are open3D's ICP and my ICP available.
+There are two options available for the ICP (Iterative Closest Point) algorithm: open3D's ICP and my ICP.
 
-Thus, there are 4 cases:
+There are 4 cases to consider:
 
 1. Floor 1 with open3D's ICP
 
@@ -63,49 +85,47 @@ python reconstruct.py -f 2 -v my_icp
 
 ## Results
 
-Task1:
+Task 1:
 
-1. select first floor
+1. Selection of the first floor
+    - Bird's eye view:
     
-    bird’s eye view:
+    We first select four points in either **clockwise** or **counterclockwise** order.
     
-    We first select four points in **clockwise** or **counterclockwise** order.
+    ![bevfloor1.png](HW1%20dc37153454134aa6b3b831fa28288166/bevfloor1.png)
     
-    ![Top to front view projection projection.png_screenshot_13.10.2023.png](HW1%20dc37153454134aa6b3b831fa28288166/Top_to_front_view_projection_projection.png_screenshot_13.10.2023.png)
+    - Front view:
     
-    front view:
+    Then, we can obtain the projection in the front view.
     
-    then we can get the projection in front view.
+    ![frontfloor1.png](HW1%20dc37153454134aa6b3b831fa28288166/frontfloor1.png)
     
-    ![Top to front view projection projection.png_screenshot_13.10.2023.png](HW1%20dc37153454134aa6b3b831fa28288166/Top_to_front_view_projection_projection.png_screenshot_13.10.2023.png)
+2. Selection of the second floor
+    - Bird's eye view:
     
-2. Select second floor
+    ![bevfloor2.png](HW1%20dc37153454134aa6b3b831fa28288166/bevfloor2.png)
     
-    bird’s eye view:
+    - Front view:
     
-    ![image_screenshot2_13.10.2023.png](HW1%20dc37153454134aa6b3b831fa28288166/image_screenshot2_13.10.2023.png)
-    
-    front view:
-    
-    ![Top to front view projection projection2.png_screenshot_13.10.2023.png](HW1%20dc37153454134aa6b3b831fa28288166/Top_to_front_view_projection_projection2.png_screenshot_13.10.2023.png)
+    ![forntfloor2.png](HW1%20dc37153454134aa6b3b831fa28288166/forntfloor2.png)
     
 
-Task2:
+Task 2:
 
-The red line is camera pose and the black line is ground truth.
+The red line represents the camera pose, and the black line represents the ground truth.
 
-1. floor 1 with open3D ‘s ICP
-
-![Screenshot from 2023-10-13 23-48-47.png](HW1%20dc37153454134aa6b3b831fa28288166/Screenshot_from_2023-10-13_23-48-47.png)
-
-1. floor 2 with open3D ‘s ICP
+1. Floor 1 with open3D's ICP
     
-    ![Screenshot from 2023-10-13 23-51-36.png](HW1%20dc37153454134aa6b3b831fa28288166/Screenshot_from_2023-10-13_23-51-36.png)
+    ![open3dfloor1.png](HW1%20dc37153454134aa6b3b831fa28288166/open3dfloor1.png)
     
-2. floor 1 with my ICP
+2. Floor 2 with open3D's ICP
     
-    ![Screenshot from 2023-10-14 00-01-42.png](HW1%20dc37153454134aa6b3b831fa28288166/Screenshot_from_2023-10-14_00-01-42.png)
+    ![open3dfloor2.png](HW1%20dc37153454134aa6b3b831fa28288166/open3dfloor2.png)
     
-3. floor 2 with my ICP
+3. Floor 1 with my ICP
     
-    ![Screenshot from 2023-10-14 18-16-43.png](HW1%20dc37153454134aa6b3b831fa28288166/Screenshot_from_2023-10-14_18-16-43.png)
+    ![myicpfloor1.png](HW1%20dc37153454134aa6b3b831fa28288166/myicpfloor1.png)
+    
+4. Floor 2 with my ICP
+    
+    ![myicpfloor2.png](HW1%20dc37153454134aa6b3b831fa28288166/myicpfloor2.png)
