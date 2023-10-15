@@ -92,22 +92,22 @@ Task 1:
     
     We first select four points in either **clockwise** or **counterclockwise** order.
     
-    ![bevfloor1.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/bevfloor1.png))
+    ![bevfloor1.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/bevfloor1.png)
     
     - Front view:
     
     Then, we can obtain the projection in the front view.
     
-    ![frontfloor1.png](HW1%20dc37153454134aa6b3b831fa28288166/frontfloor1.png)
+    ![frontfloor1.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/frontfloor1.png)
     
 2. Selection of the second floor
     - Bird's eye view:
     
-    ![bevfloor2.png](HW1%20dc37153454134aa6b3b831fa28288166/bevfloor2.png)
+    ![bevfloor2.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/bevfloor2.png)
     
     - Front view:
     
-    ![forntfloor2.png](HW1%20dc37153454134aa6b3b831fa28288166/forntfloor2.png)
+    ![forntfloor2.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/forntfloor2.png)
     
 
 Task 2:
@@ -116,16 +116,16 @@ The red line represents the camera pose, and the black line represents the groun
 
 1. Floor 1 with open3D's ICP
     
-    ![open3dfloor1.png](HW1%20dc37153454134aa6b3b831fa28288166/open3dfloor1.png)
+    ![open3dfloor1.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/open3dfloor1.png)
     
 2. Floor 2 with open3D's ICP
     
-    ![open3dfloor2.png](HW1%20dc37153454134aa6b3b831fa28288166/open3dfloor2.png)
+    ![open3dfloor2.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/open3dfloor2.png)
     
 3. Floor 1 with my ICP
     
-    ![myicpfloor1.png](HW1%20dc37153454134aa6b3b831fa28288166/myicpfloor1.png)
+    ![myicpfloor1.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/myicpfloor1.png)
     
 4. Floor 2 with my ICP
     
-    ![myicpfloor2.png](HW1%20dc37153454134aa6b3b831fa28288166/myicpfloor2.png)
+    ![myicpfloor2.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/myicpfloor2.png)
