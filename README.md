@@ -71,7 +71,7 @@ Task1:
     
     We first select four points in **clockwise** or **counterclockwise** order.
     
-    ![image_screenshot_13.10.2023.png](HW1%20dc37153454134aa6b3b831fa28288166/image_screenshot_13.10.2023.png)
+    ![Top to front view projection projection.png_screenshot_13.10.2023.png)
     
     front view:
     
