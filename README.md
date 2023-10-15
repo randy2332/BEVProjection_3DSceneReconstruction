@@ -92,7 +92,7 @@ Task 1:
     
     We first select four points in either **clockwise** or **counterclockwise** order.
     
-    ![bevfloor1.png]([HW1%20dc37153454134aa6b3b831fa28288166/bevfloor1.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/bevfloor1.png))
+    ![bevfloor1.png](https://github.com/randy2332/NYCU-perception-and-decision-making-in-intelligent-systems-hw1/blob/main/bevfloor1.png))
     
     - Front view:
     
