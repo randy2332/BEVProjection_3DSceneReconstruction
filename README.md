@@ -21,9 +21,9 @@ First, run [load.py](http://load.py/) to collect your data.
 
 For the first floor, use the following command in your terminal:  
 ```txt
-w for go forward  
-a for turn left  
-d for trun right  
+w for go forward
+a for turn left 
+d for trun right 
 f for finish and quit the program
 
 ```
