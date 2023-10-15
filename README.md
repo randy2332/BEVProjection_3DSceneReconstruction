@@ -20,6 +20,10 @@ you can see [Link 3](https://github.com/HCIS-Lab/pdm-f23) to get more informatio
 First, run [load.py](http://load.py/) to collect your data.
 
 For the first floor, use the following command in your terminal:
+w for go forward  
+a for turn left  
+d for trun right  
+f for finish and quit the program
 
 ```python
 python load.py -f 1
