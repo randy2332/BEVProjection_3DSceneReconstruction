@@ -8,7 +8,7 @@ Put the download file in the souce/replica_v1
 
 1. [Link 1](https://drive.google.com/file/d/1zHA2AYRtJOmlRaHNuXOvC_OaVxHe56M4/view?usp=sharing)
 2. [Link 2](https://github.com/facebookresearch/Replica-Dataset)  
-you can see [Link 3](https://github.com/HCIS-Lab/pdm-f23) to know more
+you can see [Link 3](https://github.com/HCIS-Lab/pdm-f23) to get more informations
 
 ## Environment:
 
