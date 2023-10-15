@@ -8,7 +8,7 @@ Python 3.7
 
 ---
 
-## Exercute Code
+## Exercute Program
 
 Task1 :
 
