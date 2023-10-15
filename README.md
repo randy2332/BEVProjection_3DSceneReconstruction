@@ -4,6 +4,7 @@
 ## Data Preparation
 
 To get started, download the replica dataset from the following links:
+Put the download file in the souce/replica_v1
 
 1. [Link 1](https://drive.google.com/file/d/1zHA2AYRtJOmlRaHNuXOvC_OaVxHe56M4/view?usp=sharing)
 2. [Link 2](https://github.com/facebookresearch/Replica-Dataset)
