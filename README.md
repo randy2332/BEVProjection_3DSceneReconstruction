@@ -13,7 +13,21 @@ you can see [Link 3](https://github.com/HCIS-Lab/pdm-f23) to get more informatio
 ## Environment:
 
 - OS: Ubuntu 22.04
-- Python 3.7
+- Python 3.7  
+using anaconda to creat a new environment
+
+```txt
+conda create -n habitat python=3.7
+# Activate the conda env
+conda activate habitat
+# Install requirements
+pip install -r requirements.txt
+# Install habitat-sim from source
+cd habitat-sim && pip install -r requirements.txt && python setup.py install --bullet && cd ..
+# Install habitat-lab
+cd habitat-lab && pip install -r requirements.txt && python setup.py develop && cd ..
+
+'''
 
 ## Execution Instructions
 
