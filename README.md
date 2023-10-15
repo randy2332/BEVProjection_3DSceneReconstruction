@@ -13,7 +13,8 @@ you can see [Link 3](https://github.com/HCIS-Lab/pdm-f23) to get more informatio
 ## Environment:
 
 - OS: Ubuntu 22.04
-- Python 3.7  
+- Python 3.7
+  
 using anaconda to creat a new environment
 
 ```txt
@@ -27,7 +28,7 @@ cd habitat-sim && pip install -r requirements.txt && python setup.py install --b
 # Install habitat-lab
 cd habitat-lab && pip install -r requirements.txt && python setup.py develop && cd ..
 
-'''
+```
 
 ## Execution Instructions
 
